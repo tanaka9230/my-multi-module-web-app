@@ -8,6 +8,6 @@ This is a Maven's "war"-package project, as a member of the "multi-module" manag
 
 and the following is another member project of the "multi-module".
 
-- https://github.com/tanaka9230/my-multi-module-web-app
+- https://github.com/tanaka9230/my-multi-module-java-app
 
-See and check the "pom.xml" of above 3 projects for details.
+See and check the "pom.xml" of these 3 projects for details.
