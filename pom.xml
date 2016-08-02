@@ -4,9 +4,7 @@
 >
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>example</groupId>
     <artifactId>my-multi-module-web-app</artifactId>
-    <version>0.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <parent>
@@ -29,7 +27,7 @@
     </build>
 
     <dependencies>
-       <!-- provided spec -->
+       <!-- provided servlet spec -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -42,11 +40,10 @@
             <version>2.3.1</version>
             <scope>provided</scope>
         </dependency>
-        <!-- common -->
+        <!-- logger -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-web</artifactId>
-            <version>2.5</version>
             <scope>runtime</scope>
         </dependency>
         <!-- custom -->
